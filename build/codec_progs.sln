@@ -1,21 +1,21 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "codec_progs", "codec_progs.vcproj", "{9640C58D-96E7-44C4-90FB-2A7EF8F722D2}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dct", "dct.vcxproj", "{9640C58D-96E7-44C4-90FB-2A7EF8F722D2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fourier_test", "fourier_test\fourier_test.vcproj", "{5DF5871A-56A1-4C48-8EF5-8DDC8EE5B67B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fourier", "fourier.vcxproj", "{5DF5871A-56A1-4C48-8EF5-8DDC8EE5B67B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ggd_test", "ggd_test\ggd_test.vcproj", "{1DDD5C81-324C-4F48-A72E-68EEE298389A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ggd", "ggd.vcxproj", "{1DDD5C81-324C-4F48-A72E-68EEE298389A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yuv_handle", "yuv_handle\yuv_handle.vcproj", "{56AA924C-4A50-4E9E-BC61-1A2D389289A3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yuv_handle", "yuv_handle.vcxproj", "{56AA924C-4A50-4E9E-BC61-1A2D389289A3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "psnr_ssim_calc", "psnr_ssim_calc\psnr_ssim_calc.vcproj", "{760008A2-3113-463B-9D98-B4921A2BC9EA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "psnr_ssim_calc", "psnr_ssim_calc.vcxproj", "{760008A2-3113-463B-9D98-B4921A2BC9EA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "x264_satd_test", "x264_satd_test\x264_satd_test.vcproj", "{B9C82B59-96DF-4D73-8CCD-33C22213A652}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "x264_satd_test", "x264_satd_test.vcxproj", "{B9C82B59-96DF-4D73-8CCD-33C22213A652}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "x264_frame_filter_test", "x264_frame_filter_test\x264_frame_filter_test.vcproj", "{8C0EA6D5-3444-4DE3-ADC9-EB9CF4972BA2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "x264_frame_filter_test", "x264_frame_filter_test.vcxproj", "{8C0EA6D5-3444-4DE3-ADC9-EB9CF4972BA2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hm_test", "hm_test\hm_test.vcproj", "{F30F8A82-CD77-439B-A078-9D9A6C114FDA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hm_test", "hm_test.vcxproj", "{F30F8A82-CD77-439B-A078-9D9A6C114FDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
