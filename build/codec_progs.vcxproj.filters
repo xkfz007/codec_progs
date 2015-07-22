@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\dct.c" />
+    <ClCompile Include="..\fourier.c" />
+    <ClCompile Include="..\qp_bitrate.c" />
+    <ClCompile Include="..\seq_name_parse.c" />
+    <ClCompile Include="..\var_calc.c" />
+    <ClCompile Include="..\vlc.c" />
+    <ClCompile Include="..\gauss_leg.c">
+      <Filter>ggd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ggd.cc">
+      <Filter>ggd</Filter>
+    </ClCompile>
+    <ClCompile Include="..\hm_scan_mode_speedTest.c">
+      <Filter>hm_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\print_scan_mat.c">
+      <Filter>hm_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ssim.c">
+      <Filter>ssim_calc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ssim_compare.cc">
+      <Filter>ssim_calc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x264_frame_filter_test.c">
+      <Filter>x264_frame_filter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x264_satd4x4_test.cc">
+      <Filter>x264_satd_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x264_var_test.c">
+      <Filter>x264_satd_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\x264_satd8x8_test.cc">
+      <Filter>x264_satd_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\getframes.c" />
+    <ClCompile Include="..\readimg.c" />
+    <ClCompile Include="..\merge_yuv.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ggd">
+      <UniqueIdentifier>{4321c443-2e86-4ab4-ba21-2be65936c356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hm_test">
+      <UniqueIdentifier>{9158203a-7869-41f2-9b6e-2891b24b32a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssim_calc">
+      <UniqueIdentifier>{59a323c5-898a-4396-bdf0-3e3008e14c7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="x264_frame_filter">
+      <UniqueIdentifier>{14a5a476-28ad-44e1-b6e2-9168a1d42910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="x264_satd_test">
+      <UniqueIdentifier>{f2627c12-8df7-464b-9201-36cee52a24ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\x264_test.h">
+      <Filter>x264_frame_filter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
