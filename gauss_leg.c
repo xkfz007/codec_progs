@@ -1,3 +1,4 @@
+#ifdef _GGD
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
@@ -121,4 +122,5 @@ int main(void)
 	return 0;
 }
 
+#endif
 #endif

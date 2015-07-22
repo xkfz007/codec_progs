@@ -88,11 +88,6 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\x264_satd4x4_test.cc" />
-    <ClCompile Include="..\x264_satd8x8_test.cc" />
-    <ClCompile Include="..\x264_var_test.c" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

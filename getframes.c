@@ -1,11 +1,11 @@
 /*
  * This program is used to get some continuous frames from the yuv sequences.
  */
+#ifdef _GETFRAMES
 #include <stdio.h>
 #include <stdlib.h>
 typedef unsigned char byte;
 
-#ifdef _GETFRAMES
 int main(int argc,char*argv[])
 {
     char *yuvpath;

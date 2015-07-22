@@ -90,10 +90,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\dct.c" />
+    <ClCompile Include="..\fourier.c" />
+    <ClCompile Include="..\gauss_leg.c" />
+    <ClCompile Include="..\getframes.c" />
+    <ClCompile Include="..\ggd.cc" />
+    <ClCompile Include="..\hm_scan_mode_speedTest.c" />
+    <ClCompile Include="..\merge_yuv.c" />
+    <ClCompile Include="..\print_scan_mat.c" />
     <ClCompile Include="..\qp_bitrate.c" />
+    <ClCompile Include="..\readimg.c" />
     <ClCompile Include="..\seq_name_parse.c" />
+    <ClCompile Include="..\ssim.c" />
+    <ClCompile Include="..\ssim_compare.cc" />
     <ClCompile Include="..\var_calc.c" />
     <ClCompile Include="..\vlc.c" />
+    <ClCompile Include="..\x264_frame_filter_test.c" />
+    <ClCompile Include="..\x264_satd4x4_test.cc" />
+    <ClCompile Include="..\x264_satd8x8_test.cc" />
+    <ClCompile Include="..\x264_var_test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\x264_test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

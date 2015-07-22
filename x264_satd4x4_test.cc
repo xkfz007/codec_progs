@@ -1,3 +1,4 @@
+#ifdef _X264_SATD4X4_TEST
 #include <stdio.h>
 
 typedef int VMF_S32;
@@ -66,3 +67,4 @@ int main(){
     int satd=satd_4x4(src,4,pred,4);
     printf("satd=%d\n",satd);
 }
+#endif

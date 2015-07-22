@@ -6,7 +6,7 @@
  * The results are stored in the files:real1.tex image1.txt real2.txt image2.txt
  * 
  */
-
+#ifdef _FOURIER
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -278,4 +278,6 @@ int main(int argc,char*argv[])
     return 0;
 
 }
+#endif
+
 #endif

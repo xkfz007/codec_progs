@@ -1,4 +1,4 @@
-#if 0
+#ifdef _X264_VAR_TEST
 
 typedef signed char int8_t;
 typedef unsigned char   uint8_t;
@@ -93,3 +93,5 @@ int main(){
 }
 #endif
 
+
+#endif

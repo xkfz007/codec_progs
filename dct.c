@@ -4,6 +4,7 @@
  * here and the main reason is to demenstrate the difference between 2-dim
  * array and 2-dim pointer.
  */
+#ifdef _DCT
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -249,4 +250,5 @@ for(j=0;j<M;j++)
 free(orig);
 free(dct);
 }
+#endif
 #endif

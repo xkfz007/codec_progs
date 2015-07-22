@@ -1,3 +1,4 @@
+#ifdef _X264_FRAME_FILTER_TEST
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -375,3 +376,4 @@ int main11(){
   fclose(p_handle);
   return 0;
 }
+#endif

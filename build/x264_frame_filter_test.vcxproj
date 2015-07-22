@@ -88,13 +88,6 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\x264_frame_filter_test.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\stdint.h" />
-    <ClInclude Include="..\x264_test.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

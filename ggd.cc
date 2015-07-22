@@ -1,6 +1,7 @@
 /*
  * this program is used to calculate the value of generalized gaussian distribution.
  */
+#ifdef _GGD
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -128,4 +129,5 @@ int main(){
 	printf("\nIntegral from GAULEG: %f\n",xx);
 
 }
+#endif
 #endif

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#if 0
+#ifdef _X264_SATD8X8_TEST
 typedef int VMF_S32;
 typedef unsigned char pixel;
 typedef unsigned int VMF_U32;

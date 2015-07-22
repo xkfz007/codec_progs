@@ -1,6 +1,7 @@
 /*
 this program is used to compare the SSIM calculation codes of JM and that of x264
 */
+#ifdef _SSIM_COMPARE
 #include <cstdio>
 #include <cstdlib>
 typedef double VMF_DOUBLE;
@@ -251,3 +252,4 @@ int main(){
 	fclose(fp_r);
 
 }
+#endif

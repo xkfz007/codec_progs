@@ -2,6 +2,7 @@
 this program is used to test the speed of two assign/scan modes
 the codes are most from hm
 */
+#ifdef _HM_SCAN_MODE_SPEEDTEST
 #include <stdio.h>
 #include <string.h>
 
@@ -142,3 +143,4 @@ int main(){
 
 	return 0;
 }
+#endif
