@@ -1,6 +1,7 @@
 /*
  * this program is used to obtain the specific frame from the yuv sequence.
  */
+#ifdef _READIMG
 #include <stdio.h>
 #include <stdlib.h>
 typedef unsigned char byte;
@@ -76,7 +77,6 @@ void freemem(byte**src,int row) {
         free(src[i]);
     free(src);
 }
-#if 0
 int main(int argc,char*argv[]) {
     char *yuvpath;
     int framenumber;

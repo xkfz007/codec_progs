@@ -5,7 +5,7 @@
 #include <stdlib.h>
 typedef unsigned char byte;
 
-#if 0
+#ifdef _GETFRAMES
 int main(int argc,char*argv[])
 {
     char *yuvpath;

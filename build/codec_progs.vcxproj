@@ -11,9 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F30F8A82-CD77-439B-A078-9D9A6C114FDA}</ProjectGuid>
-    <RootNamespace>hm_test</RootNamespace>
+    <ProjectGuid>{7B9C500E-609F-4699-87FF-F24068960357}</ProjectGuid>
+    <RootNamespace>dct</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <ProjectName>codec_progs</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -89,8 +90,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\hm_scan_mode_speedTest.c" />
-    <ClCompile Include="..\print_scan_mat.c" />
+    <ClCompile Include="..\qp_bitrate.c" />
+    <ClCompile Include="..\seq_name_parse.c" />
+    <ClCompile Include="..\var_calc.c" />
+    <ClCompile Include="..\vlc.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -90,6 +90,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\getframes.c" />
+    <ClCompile Include="..\merge_yuv.c" />
     <ClCompile Include="..\readimg.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
